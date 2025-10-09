@@ -91,15 +91,15 @@ Key highlights of this project:
 
 1. Clone this repository.  
 2. Initialize Terraform:  
-   terraform init
+   terraform init.
 3.Validate configuration:
-   terraform validate
+   terraform validate.
 4.Preview resources:
-   terraform plan
+   terraform plan.
 5.Deploy infrastructure:
-   terraform apply -auto-approve
+   terraform apply -auto-approve.
 6.After deployment, get the ALB DNS from Terraform output:
-   terraform output loadbalancerdns
+   terraform output loadbalancerdns.
 7.Paste the DNS name in a browser to access the web app.
 
 ## Architecture Diagram
